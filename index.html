@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste Javascript</title>
+</head>
+<body>
+    <h1>
+        Gerador de Curriculos
+    </h1>
+    <div id="container">
+        <div class="form">
+            <div class="name">
+                <p>
+                    Nome Completo:
+                </p>
+                <input type="text" name="name" id="name" value="">
+            </div>
+            <div class="date">
+                </p>
+                    Data de Nascimento:
+                <p>
+                <input type="date" name="date" id="date" value="">
+            </div>
+            <div class="alfa">
+                <LAbel>
+                    <p>
+                        Nivel de alfabetização:
+                    </p>
+                    <input list="text" name="alfa" id="alfa" value="">
+                </LAbel>
+                    <datalist id="text">
+                        <option value="Fundamental-completo"></option>
+                        <option value="Fundamental-incompleto"></option>
+                        <option value="médio-completo"></option>
+                        <option value="médio-incompleto"></option>
+                        <option value="superior em andamento"></option>
+                        <option value="superior-completo"></option>
+                    </datalist>
+            </div>
+            <div class="contact">
+                <p>
+                    Contato:
+                </p>
+                <input type="tel" name="contato" id="contato" value="" pattern="">
+            </div>
+            <div class="butom">
+            <input type="button" id="enviar-button" value="Gerar">
+            </div>
+        </div>
+    </div>
+    <script src="form.js" defer></script>
+</body>
+</html>
