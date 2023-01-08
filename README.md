@@ -1,5 +1,6 @@
-#<strong> Gerador-de-Curriculo_beta</strong>#
-Treinando manipulação de DOM com javascript. Usando técnicas de armazenamento no localStorage:
+#<strong> Gerador-de-Curriculo_beta</strong>#<br>
+
+Treinando manipulação de DOM com javascript. Usando técnicas de armazenamento no localStorage
 
 <strong><u> Adicionados: </u></strong>
 
