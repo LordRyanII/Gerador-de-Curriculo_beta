@@ -3,9 +3,9 @@ Treinando manipulação de DOM com javascript. Usando técnicas de armazenamento
 
 <strong><u> Adicionados: </u></strong>
 
--Design responsivo;
--Lógica melhorada;
--Sistema de validação;
+-Design responsivo; <br>
+-Lógica melhorada;<br>
+-Sistema de validação;<br>
 
 Pretendo melhorar mais ainda!
 
