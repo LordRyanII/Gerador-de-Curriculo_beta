@@ -8,7 +8,7 @@ Treinando manipulação de DOM com javascript. Usando técnicas de armazenamento
 -Sistema de validação;<br>
 
 <strong>Link para vizualização da versão beta</strong> <br>
-https://lordryanii.github.io/Gerador-de-Curriculo_beta/
+<a href="https://lordryanii.github.io/Gerador-de-Curriculo_beta/" target ="_blank"></a>
 
 <br>
 Pretendo melhorar mais ainda!
