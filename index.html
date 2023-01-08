@@ -1,57 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Teste Javascript</title>
+    <title>Gerador | Curriculo</title>
 </head>
 <body>
-    <h1>
-        Gerador de Curriculos
-    </h1>
     <div id="container">
-        <div class="form">
-            <div class="name">
-                <p>
-                    Nome Completo:
-                </p>
-                <input type="text" name="name" id="name" value="">
-            </div>
-            <div class="date">
-                </p>
-                    Data de Nascimento:
-                <p>
-                <input type="date" name="date" id="date" value="">
-            </div>
-            <div class="alfa">
-                <LAbel>
+        <header>
+            <h1>
+                Gerador De Curriculo
+            </h1>
+        </header>
+        <section>
+            <div class="content">
+                <div class="nome">
                     <p>
-                        Nivel de alfabetização:
+                        Nome Completo:
                     </p>
-                    <input list="text" name="alfa" id="alfa" value="">
-                </LAbel>
+                    <input type="text" id="name" value="">
+                </div>
+            <div class="escolaridade">
+                    <p>
+                        Selecione o seu grau de conhecimento:
+                    </p>
+                    <input list="text" name="escola" id="escola" value="">
                     <datalist id="text">
-                        <option value="Fundamental-completo"></option>
-                        <option value="Fundamental-incompleto"></option>
-                        <option value="médio-completo"></option>
-                        <option value="médio-incompleto"></option>
+                        <option value="fundamental-completo"></option>
+                        <option value="fundamental-incompleto"></option>
+                        <option value="medio-completo"></option>
+                        <option value="medio-incompleto"></option>
                         <option value="superior em andamento"></option>
                         <option value="superior-completo"></option>
                     </datalist>
             </div>
-            <div class="contact">
-                <p>
-                    Contato:
-                </p>
-                <input type="tel" name="contato" id="contato" value="" pattern="">
+                <div class="nascimento">
+                    <p>
+                        Selecione sua data de nascimento:
+                    </p>
+                    <input type="date" name="date" id="date" value="">
+                </div>
+                <div class="contact">
+                    <p>
+                        Digite o seu número:
+                    </p>
+                    <input type="number" name="number" id="number"value="">
+                </div>
+                <div class="sobre">
+                    <p>
+                        Fale sobre você:
+                    </p>
+                    <input type="text" name="about" id="about" value="">
+                </div>
             </div>
-            <div class="butom">
-            <input type="button" id="enviar-button" value="Gerar">
+            <div class="button">
+                <input type="button" value="Enviar" onclick="enviar()" id="enviar">
             </div>
         </div>
+        </section>
     </div>
-    <script src="form.js" defer></script>
+<script src="sistem.js"></script>
 </body>
 </html>
