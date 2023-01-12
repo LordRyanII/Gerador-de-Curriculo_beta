@@ -55,8 +55,9 @@ function dados() {
         localStorage.setItem('Contato', dadosObj.Contato);
         localStorage.setItem('Nascimento', dadosObj.Nascimento);
         localStorage.setItem('Escolaridade', dadosObj.Escolaridade);
-      },100)
+      },1000)
       
+
     }
   }
 //Envia e verifica

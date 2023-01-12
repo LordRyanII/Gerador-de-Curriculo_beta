@@ -4,7 +4,7 @@
 }
 
 body{
-    margin: 30px;
+    margin: 10px;
 }
 #container{
     background-color: gray; 
@@ -49,7 +49,11 @@ input{
     width: 150px !important;
     text-align: center;
 }
-.sobre > input{
+.sobre > p{
+    margin-bottom: 10px;
+}
+.sobre > textarea{
+    width: 500px;
     height: 100px !important;
 }
 .button{
