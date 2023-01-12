@@ -3,32 +3,35 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 /* Styles for screens with a width of 450px or less */
-@media screen and (max-width:450px) {
-    /* Add margin-top of 50px to the body */
+    @media (min-width:350px) and (max-width:550px) {
+    /*Adapta o conteúdo para telas entre 375px e 550px*/
     body {
-        /*margin-top: 50px;*/
         margin: 1px;
     }
-
-    /* Add a min-width of 200px to the container, and change the background color to red */
     #container {
         margin: 0%;
-        max-width: 160px;
+        max-width: 100%;
+        /*min-width: 375px;*/
         text-align: left;
         background-color: grey;
     }
-
-    /* Change the font size of the h1 element in the header */
+    header{
+        max-width:  100%;
+    }
+    /* Define uma fonte de tamanho miníma responsiva para o HEADER do H1*/
     header > h1 {
         font-size: 20px;
     }
 
-    /* Change the width of the input elements to fit a smaller screen */
+    /* Adapta os input das páginas */
     input {
         max-width: 100%;
     }
+    .sobre > textarea{
+        max-width: 100%;
+        
+    }
 }
-
 
 
 #container{
