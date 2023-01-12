@@ -4,6 +4,20 @@
     max-width: 100vw;
     max-height: 100vw;
 }
+@media (min-width:350px) and (max-width:550px) {
+    /*Adapta o conteúdo para telas entre 375px e 550px*/
+    body {
+        font-size: 13px;
+    }
+    
+    .Dados{
+        max-width: 100%;
+        background-color: white;
+    }
+    .contato-res{
+        font-size: 13px;
+    }
+}
 body{
     margin-top: 20px;
     background-color: grey;
