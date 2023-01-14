@@ -3,8 +3,9 @@ function verifique_identidade(callback) {
   let Nome = localStorage.getItem("Nome");
   let About = localStorage.getItem("About");
   let Contato = localStorage.getItem("Contato");
+  let body = document.getElementsByTagName("body")[0];
   let Nascimento = localStorage.getItem("Nascimento");
-  let Escolaridade = localStorage.getItem("Escolaridade");
+  let Escolaridade = localStorage.getItem("Escolaridade"); 
 
 //Errors 
   if (
@@ -15,8 +16,8 @@ function verifique_identidade(callback) {
     Escolaridade === null
   ) {
     alert("Nenhum dado disponível para Gerar o currículo");
-    let body = document.getElementsByTagName("body")[0];
     body.innerHTML = "Error [Base de Dados]";
+    body.style.margin = 'auto'.textAlign = "center";
   } else {
     return gerarCurriculo( {Nome, About, Contato, Nascimento, Escolaridade});
   }
